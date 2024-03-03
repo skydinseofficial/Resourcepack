@@ -1,2 +1,2 @@
 # resoucepack
-Skydinse-Pack Host
+Skydinse Resoucepack
