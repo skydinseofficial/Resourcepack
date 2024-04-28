@@ -1,2 +1,2 @@
 # Resoucepack
-Skydinse Resoucepack Releases
+Skydinse Resourcepack Releases
