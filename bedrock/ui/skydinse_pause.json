@@ -1,0 +1,48 @@
+{
+  "namespace": "skydinse_pause",
+
+  "pause_tint": {
+    "type": "image",
+    "size": ["100%", "100%"],
+    "texture": "textures/ui/skydinse/pause_overlay",
+    "fill": true,
+    "alpha": 0.72,
+    "layer": -20
+  },
+
+  "pause_brand": {
+    "type": "panel",
+    "size": ["100%", 100],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "layer": -19,
+    "controls": [
+      {
+        "banner": {
+          "type": "image",
+          "size": [340, 110],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [0, 12],
+          "texture": "textures/ui/skydinse/pause_banner",
+          "keep_ratio": true,
+          "layer": 1
+        }
+      },
+      {
+        "subtitle": {
+          "type": "label",
+          "text": "www.skydinse.net",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [0, 100],
+          "text_alignment": "center",
+          "color": [0.98, 0.85, 0.02],
+          "font_scale_factor": 0.85,
+          "shadow": false,
+          "layer": 2
+        }
+      }
+    ]
+  }
+}

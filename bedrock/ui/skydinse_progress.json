@@ -1,0 +1,148 @@
+{
+  "namespace": "skydinse_progress",
+
+  "bar_shine_anim": {
+    "anim_type": "flip_book",
+    "fps": 12,
+    "frame_count": 8,
+    "frame_step": 182,
+    "reversible": true
+  },
+
+  "loading_bar_empty": {
+    "type": "image",
+    "texture": "textures/ui/skydinse/loading_bar_empty",
+    "size": ["100%", "100%"],
+    "layer": 1
+  },
+
+  "loading_bar_shine_idle": {
+    "type": "image",
+    "texture": "textures/ui/skydinse/loading_bar_shine",
+    "size": ["100%", "100%"],
+    "layer": 2,
+    "alpha": 0.55,
+    "uv": "@skydinse_progress.bar_shine_anim",
+    "uv_size": [182, 8],
+    "anims": ["@skydinse_progress.bar_shine_anim"]
+  },
+
+  "loading_bar_full": {
+    "type": "image",
+    "texture": "textures/ui/skydinse/loading_bar_full",
+    "size": ["100%", "100%"],
+    "layer": 3,
+    "clip_direction": "left",
+    "clip_pixelperfect": true,
+    "bindings": [
+      {
+        "binding_name": "#loading_progress",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "global",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "loading_bar_shine": {
+    "type": "image",
+    "texture": "textures/ui/skydinse/loading_bar_shine",
+    "size": ["100%", "100%"],
+    "layer": 4,
+    "clip_direction": "left",
+    "clip_pixelperfect": true,
+    "uv": "@skydinse_progress.bar_shine_anim",
+    "uv_size": [182, 8],
+    "anims": ["@skydinse_progress.bar_shine_anim"],
+    "bindings": [
+      {
+        "binding_name": "#loading_progress",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "global",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "loading_bar_stack": {
+    "type": "panel",
+    "size": [182, 8],
+    "controls": [
+      { "empty@skydinse_progress.loading_bar_empty": {} },
+      { "shine_idle@skydinse_progress.loading_bar_shine_idle": {} },
+      { "full@skydinse_progress.loading_bar_full": {} },
+      { "shine@skydinse_progress.loading_bar_shine": {} }
+    ]
+  },
+
+  "loading_bg": {
+    "type": "image",
+    "size": ["100%", "100%"],
+    "texture": "textures/ui/skydinse/pause_overlay",
+    "fill": true,
+    "alpha": 0.72,
+    "layer": -10
+  },
+
+  "loading_brand": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "layer": 5,
+    "controls": [
+      {
+        "bg@skydinse_progress.loading_bg": {}
+      },
+      {
+        "content": {
+          "type": "panel",
+          "size": ["80%", "80%"],
+          "layer": 1,
+          "controls": [
+            {
+              "center_stack": {
+                "type": "stack_panel",
+                "orientation": "vertical",
+                "size": ["90%", "100%c"],
+                "max_size": [340, 130],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "brand_image": {
+                      "type": "image",
+                      "texture": "textures/ui/skydinse/loading_brand",
+                      "size": [340, 110],
+                      "keep_ratio": true,
+                      "layer": 1
+                    }
+                  },
+                  {
+                    "bar_spacer": {
+                      "type": "panel",
+                      "size": ["100%", 12]
+                    }
+                  },
+                  {
+                    "bar_row": {
+                      "type": "panel",
+                      "size": ["100%", 8],
+                      "controls": [
+                        {
+                          "bar@skydinse_progress.loading_bar_stack": {
+                            "anchor_from": "top_middle",
+                            "anchor_to": "top_middle",
+                            "layer": 3
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

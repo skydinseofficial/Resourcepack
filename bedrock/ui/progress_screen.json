@@ -1,0 +1,87 @@
+{
+  "namespace": "progress",
+
+  "world_loading_progress_screen": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "skydinse_loading@skydinse_progress.loading_brand": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "overworld_loading_progress_screen": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "skydinse_loading@skydinse_progress.loading_brand": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "nether_loading_progress_screen": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "skydinse_loading@skydinse_progress.loading_brand": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "the_end_loading_progress_screen": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "skydinse_loading@skydinse_progress.loading_brand": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "loading_progress_bar": {
+    "ignored": true
+  },
+
+  "loading_bar": {
+    "ignored": true
+  },
+
+  "loading_message": {
+    "ignored": true
+  },
+
+  "loading_text": {
+    "ignored": true
+  },
+
+  "progress_text": {
+    "ignored": true
+  },
+
+  "percentage_text": {
+    "ignored": true
+  },
+
+  "game_tip": {
+    "ignored": true
+  }
+}

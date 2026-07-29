@@ -1,0 +1,32 @@
+{
+  "namespace": "pause_screen",
+
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "skydinse_tint@skydinse_pause.pause_tint": {}
+          },
+          {
+            "skydinse_brand@skydinse_pause.pause_brand": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "menu_background/button_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {
+          "control_name": "title_image"
+        }
+      }
+    ]
+  }
+}

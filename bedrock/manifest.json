@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Skydinse Bedrock UI (Alpha 1)",
+    "description": "Pause-Menü, Ladescreen + Hotbar-Items für play.skydinse.net",
+    "uuid": "a7c8d9e0-f1a2-3456-b789-012345678901",
+    "version": [0, 1, 4],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b8d9e0f1-a2b3-4567-c890-123456789012",
+      "version": [0, 1, 4]
+    }
+  ],
+  "metadata": {
+    "authors": ["Mangur7090", "RuviosStudios"]
+  }
+}

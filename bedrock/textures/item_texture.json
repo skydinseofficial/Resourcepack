@@ -1,0 +1,16 @@
+{
+  "resource_pack_name": "skydinse_bedrock_ui_pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "skydinse_cosmetics": {
+      "textures": [
+        "textures/items/skydinse/cosmetics"
+      ]
+    },
+    "skydinse_navigator": {
+      "textures": [
+        "textures/items/skydinse/navigator"
+      ]
+    }
+  }
+}

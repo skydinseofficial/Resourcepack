@@ -1,0 +1,8 @@
+{
+  "ui_defs": [
+    "ui/skydinse_pause.json",
+    "ui/pause_screen.json",
+    "ui/skydinse_progress.json",
+    "ui/progress_screen.json"
+  ]
+}
