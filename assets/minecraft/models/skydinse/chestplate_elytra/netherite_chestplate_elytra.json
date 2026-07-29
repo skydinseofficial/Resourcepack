@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "item/skydinse/items/chestplate_elytra/netherite_chestplate_elytra"
+	}
+  }

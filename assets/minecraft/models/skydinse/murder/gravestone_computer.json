@@ -1,0 +1,82 @@
+{
+	"credit": "Made by Skydinse",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "item/models/murder/custom_gravestones/computer/texture1"
+	},
+	"elements": [
+		{
+			"name": "301470273",
+			"from": [2, 0, 3],
+			"to": [14, 2, 13],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [1.25, 6.25, 2.75, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 6.25, 1.25, 6.5], "texture": "#0"},
+				"south": {"uv": [4, 6.25, 5.5, 6.5], "texture": "#0"},
+				"west": {"uv": [2.75, 6.25, 4, 6.5], "texture": "#0"},
+				"up": {"uv": [2.75, 6.25, 1.25, 5], "texture": "#0"},
+				"down": {"uv": [4.25, 5, 2.75, 6.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "803759037",
+			"from": [4, 2, 5],
+			"to": [12, 3, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 5.75, 6, 5.875], "texture": "#0"},
+				"east": {"uv": [4.25, 5.75, 5, 5.875], "texture": "#0"},
+				"south": {"uv": [6.75, 5.75, 7.75, 5.875], "texture": "#0"},
+				"west": {"uv": [6, 5.75, 6.75, 5.875], "texture": "#0"},
+				"up": {"uv": [6, 5.75, 5, 5], "texture": "#0"},
+				"down": {"uv": [7, 5, 6, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "1526199960",
+			"from": [0.5, 3, 0],
+			"to": [15.5, 17, 15],
+			"rotation": {"angle": 0, "axis": "z", "origin": [5, 3, 5]},
+			"faces": {
+				"north": {"uv": [1.875, 1.875, 3.75, 3.625], "texture": "#0"},
+				"east": {"uv": [0, 1.875, 1.875, 3.625], "texture": "#0"},
+				"south": {"uv": [5.625, 1.875, 7.5, 3.625], "texture": "#0"},
+				"west": {"uv": [3.75, 1.875, 5.625, 3.625], "texture": "#0"},
+				"up": {"uv": [3.75, 1.875, 1.875, 0], "texture": "#0"},
+				"down": {"uv": [5.625, 0, 3.75, 1.875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "1135057209",
+			"from": [2, 7, -0.2],
+			"to": [12.5, 16.5, -0.7],
+			"rotation": {"angle": 0, "axis": "z", "origin": [5, 3, 5]},
+			"faces": {
+				"north": {"uv": [7.75, 2.125, 9.25, 3.5], "texture": "#0"},
+				"east": {"uv": [7.625, 2.125, 7.75, 3.5], "texture": "#0"},
+				"south": {"uv": [9.375, 2.125, 10.875, 3.5], "texture": "#0"},
+				"west": {"uv": [9.25, 2.125, 9.375, 3.5], "texture": "#0"},
+				"up": {"uv": [9.25, 2.125, 7.75, 2], "texture": "#0"},
+				"down": {"uv": [10.75, 2, 9.25, 2.125], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [9, -153, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, -23.25, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

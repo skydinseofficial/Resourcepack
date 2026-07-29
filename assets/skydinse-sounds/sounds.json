@@ -1,0 +1,50 @@
+{
+  "easteregg.youshallnotpass": {
+    "sounds": [
+      "skydinse-sounds:easteregg.youshallnotpass"]
+    },
+  "easteregg.discordnotify": {
+   "sounds": [
+      "skydinse-sounds:easteregg.discordnotify"]
+    },
+  "easteregg.nokiaringtone": {
+    "sounds": [
+      "skydinse-sounds:easteregg.nokiaringtone"]
+    },
+  "easteregg.canyouhearmenow": {
+    "sounds": [
+      "skydinse-sounds:easteregg.canyouhearmenow"]
+    },
+  "soundeffects.woosh": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.woosh"]
+    },
+  "soundeffects.infoinfo": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.infoinfo"]
+    },
+  "soundeffects.language.en": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.language.en"]
+    },
+  "soundeffects.language.de": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.language.de"]
+    },
+  "soundeffects.language.md": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.language.md"]
+    },
+  "soundeffects.silent": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.silent"]
+    },
+  "soundeffects.drumtada": {
+    "sounds": [
+      "skydinse-sounds:soundeffects.drumtada"]
+    },
+    "song.ifwewerefree": {
+      "sounds": [
+        "skydinse-sounds:song.ifwewerefree"]
+    }
+}

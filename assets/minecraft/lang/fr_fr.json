@@ -1,0 +1,23 @@
+{
+  "connect.joining": "§f载",
+  "chat.type.text": "§f%s §8: §f%s",
+  "menu.game": "§f 𝕸",
+  "menu.returnToGame": "§6Continue de jouer",
+  "container.inventory": "",
+  "menu.disconnect": "§7Déconnexion",
+  "menu.sendFeedback": "§7Donner son avis",
+  "gui.advancements": "§7Progrès",
+  "menu.reportBugs": "§7Signaler un bug",
+  "gui.stats": "§7Statistiques",
+  "command.unknown.command": "§8[§c✘§8] §6⌞Skydinse⌝ §7§lᐅ§c Commande inconnue!",
+  "command.unknown.argument": "§f%s",
+  "command.context.parse_error": "§f%s",
+  "gui.done": "§eTerminé",
+  "multiplayer.unsecureserver.toast.title": "§f",
+  "multiplayer.unsecureserver.toast": "§f",
+  "deathScreen.title": "§cTu es mort!",
+  "deathScreen.titleScreen": "§f",
+  "block.minecraft.acacia_sign": "Invisible Sign",
+  "advancements.toast.goal": "Friends",
+  "container.repair.cost": "Cost: %1$s"
+}

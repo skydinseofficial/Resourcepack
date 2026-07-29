@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/blaze_rod"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "skydinse/generic/axe"
+                }
+            },
+			{
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "skydinse/generic/cinema"
+                }
+            },
+			{
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "skydinse/generic/holy"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/skydinse/items/buttons/other/info_gray"
+	}
+}

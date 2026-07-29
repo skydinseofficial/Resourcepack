@@ -1,0 +1,38 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:special",
+            "base": "minecraft:item/template_skull",
+            "model": {
+                "type": "minecraft:head",
+                "kind": "player"
+            }
+        },
+        "entries": [
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/skydinse/head/player_head_gui_default",
+                    "model": {
+                        "type": "minecraft:head",
+                        "kind": "player"
+                    }
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/skydinse/head/player_head_gui_custom",
+                    "model": {
+                        "type": "minecraft:head",
+                        "kind": "player"
+                    }
+                }
+            }
+        ]
+    }
+}
