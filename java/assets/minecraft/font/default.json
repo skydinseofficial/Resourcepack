@@ -284,7 +284,7 @@
     {"type": "bitmap", "file": "skydinse/extras/custombossbars/team.png", "ascent": 9, "height": 12, "chars": ["Ⲻ"]},
     {"type": "bitmap", "file": "skydinse/extras/custombossbars/time.png", "ascent": 9, "height": 12, "chars": ["½"]},
 
-    {"type": "bitmap", "file": "skydinse/extras/icons/global/discord.png", "ascent": 7, "height": 7, "chars": ["貓"]},
+    {"type": "bitmap", "file": "skydinse/extras/icons/global/discord_logo.png", "ascent": 6, "height": 7, "chars": ["勞"]},
     {"type": "bitmap", "file": "skydinse/extras/icons/global/blossom.png", "ascent": 9, "height": 12, "chars": ["⅛"]},
 
     {"type": "bitmap", "file": "skydinse/extras/labels/farmwelt.png", "ascent": 20, "height": 40, "chars": ["₀"]},
