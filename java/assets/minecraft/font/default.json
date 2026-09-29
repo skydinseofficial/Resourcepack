@@ -83,7 +83,7 @@
 
 
         {"type": "bitmap", "file": "skydinse/extras/images/banner.png", "ascent": 4, "height": 45, "chars": ["𝕸"]},
-        {"type": "bitmap", "file": "skydinse/extras/images/loading.png", "ascent": -60, "height": 61, "chars": ["载"]},
+        {"type": "bitmap", "file": "skydinse/extras/images/banner.png", "ascent": 0, "height": 61, "chars": ["载"]},
 
 
         {"type": "bitmap", "file": "skydinse/extras/game_logos/timesmp.png", "ascent": 4, "height": 45, "chars": ["莉"]},
