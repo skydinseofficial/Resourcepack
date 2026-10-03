@@ -83,7 +83,7 @@
 
 
         {"type": "bitmap", "file": "skydinse/extras/images/banner.png", "ascent": 4, "height": 45, "chars": ["𝕸"]},
-        {"type": "bitmap", "file": "skydinse/extras/images/banner.png", "ascent": 0, "height": 61, "chars": ["载"]},
+        {"type": "bitmap", "file": "skydinse/extras/images/loading.png", "ascent": -60, "height": 61, "chars": ["载"]},
 
 
         {"type": "bitmap", "file": "skydinse/extras/game_logos/timesmp.png", "ascent": 4, "height": 45, "chars": ["莉"]},
@@ -153,13 +153,13 @@
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/vipplus.png", "ascent": 7, "height": 7, "chars": [""]},
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/universe.png", "ascent": 7, "height": 7, "chars": [""]},
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/developer.png", "ascent": 7, "height": 7, "chars": [""]},
-        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/captain.png", "ascent": 7, "height": 7, "chars": ["發"]},
+        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/captain.png", "ascent": 7, "height": 7, "chars": [""]},
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/designer.png", "ascent": 7, "height": 7, "chars": [""]},
-        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/translator.png", "ascent": 7, "height": 7, "chars": ["语"]},
+        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/translator.png", "ascent": 7, "height": 7, "chars": [""]},
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/supporter.png", "ascent": 7, "height": 7, "chars": [""]},
         {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/galaxy.png", "ascent": 7, "height": 7, "chars": [""]},
-        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/manager.png", "ascent": 7, "height": 7, "chars": ["建"]},
-        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/media.png", "ascent": 7, "height": 7, "chars": ["起"]},
+        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/manager.png", "ascent": 7, "height": 7, "chars": [""]},
+        {"type": "bitmap", "file": "skydinse/extras/prefixes/ranks/media.png", "ascent": 7, "height": 7, "chars": [""]},
 
 
         {"type": "bitmap", "file": "skydinse/extras/prefixes/other/click.png", "ascent": 7, "height": 7, "chars": [""]},
