@@ -1,0 +1,154 @@
+{
+  "ranks": {
+    "owner": {
+      "char": "",
+      "codepoint": "U+E0FE",
+      "java_char": "",
+      "java_cp": "U+E0FE",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/owner.png"
+    },
+    "player": {
+      "char": "",
+      "codepoint": "U+E0F8",
+      "java_char": "",
+      "java_cp": "U+E0F8",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/player.png"
+    },
+    "sky": {
+      "char": "",
+      "codepoint": "U+E0FA",
+      "java_char": "",
+      "java_cp": "U+E0FA",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/sky.png"
+    },
+    "content": {
+      "char": "",
+      "codepoint": "U+E0FC",
+      "java_char": "",
+      "java_cp": "U+E0FC",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/content.png"
+    },
+    "admin": {
+      "char": "",
+      "codepoint": "U+E0F4",
+      "java_char": "",
+      "java_cp": "U+E0F4",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/admin.png"
+    },
+    "builder": {
+      "char": "",
+      "codepoint": "U+E0FB",
+      "java_char": "",
+      "java_cp": "U+E0FB",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/builder.png"
+    },
+    "moderator": {
+      "char": "",
+      "codepoint": "U+E0F2",
+      "java_char": "",
+      "java_cp": "U+E0F2",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/moderator.png"
+    },
+    "vip": {
+      "char": "",
+      "codepoint": "U+E0F5",
+      "java_char": "",
+      "java_cp": "U+E0F5",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/vip.png"
+    },
+    "vipplus": {
+      "char": "",
+      "codepoint": "U+E0F3",
+      "java_char": "",
+      "java_cp": "U+E0F3",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/vipplus.png"
+    },
+    "universe": {
+      "char": "",
+      "codepoint": "U+E0F6",
+      "java_char": "",
+      "java_cp": "U+E0F6",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/universe.png"
+    },
+    "developer": {
+      "char": "",
+      "codepoint": "U+E0F0",
+      "java_char": "",
+      "java_cp": "U+E0F0",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/developer.png"
+    },
+    "captain": {
+      "char": "",
+      "codepoint": "U+E0F1",
+      "java_char": "",
+      "java_cp": "U+E0F1",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/captain.png"
+    },
+    "designer": {
+      "char": "",
+      "codepoint": "U+E13E",
+      "java_char": "",
+      "java_cp": "U+E13E",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/designer.png"
+    },
+    "translator": {
+      "char": "",
+      "codepoint": "U+E0FD",
+      "java_char": "",
+      "java_cp": "U+E0FD",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/translator.png"
+    },
+    "supporter": {
+      "char": "",
+      "codepoint": "U+E0F9",
+      "java_char": "",
+      "java_cp": "U+E0F9",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/supporter.png"
+    },
+    "galaxy": {
+      "char": "",
+      "codepoint": "U+E0F7",
+      "java_char": "",
+      "java_cp": "U+E0F7",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/galaxy.png"
+    },
+    "manager": {
+      "char": "",
+      "codepoint": "U+E0FF",
+      "java_char": "",
+      "java_cp": "U+E0FF",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/manager.png"
+    },
+    "media": {
+      "char": "",
+      "codepoint": "U+E130",
+      "java_char": "",
+      "java_cp": "U+E130",
+      "aliased": false,
+      "file": "skydinse/extras/prefixes/ranks/media.png"
+    }
+  },
+  "notes": [
+    "PUA pages E0–E7 are emitted — vanilla A-Z stay intact (no glyph_00).",
+    "Java ranks on U+E0xx/U+E1xx keep the same codepoints for Geyser.",
+    "CJK ranks (manager/captain/translator/media) are forced to PUA — Bedrock CJK font wins otherwise.",
+    "Everything else (½, ★, non-BMP emoji, Hangul B0 nameplates) is aliased to E3+."
+  ]
+}
